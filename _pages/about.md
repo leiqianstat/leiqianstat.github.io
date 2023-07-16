@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Chasing Statistics #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
