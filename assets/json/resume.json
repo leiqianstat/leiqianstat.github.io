@@ -41,13 +41,14 @@
       "institution": "Peking University, Beijing, China",
       "url": "https://www.pku.edu.cn/",
       "area": "Data Science",
+      "Advisor": "href='www.songxichen.com' Prof. Songxi Chen" 
       "studyType": "Master",
       "startDate": "2023.9",
       "endDate": "2026.7",
       "score": "",
-      "courses": [
-        ""
-      ]
+      // "courses": [
+      //   ""
+      // ]
     },
     {
       "institution": "East China Normal University, Beijing, China",
