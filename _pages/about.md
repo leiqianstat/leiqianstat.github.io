@@ -20,8 +20,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am a M.S. candidate at [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Songxi Chen](https://www.songxichen.com/). 
 
-Prior to joining PKU, I was an undergraduate from [School of Statistic](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received B.S. in statistics. I was very fortunate to be advised by [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU. I aslo worked closely with [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU.
+Prior to joining PKU, I was an undergraduate from [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received B.S. in statistics. I was very fortunate to be advised by [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU. I aslo worked closely with [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU.
 
-My research interest includes diffusion model, machine learning, statistics learning and deeping learning.
+My research interest includes diffusion model, machine learning, statistical learning and deeping learning.
  
 Feel free to contact me if you would like to have a chat!

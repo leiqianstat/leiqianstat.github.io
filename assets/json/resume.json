@@ -22,26 +22,13 @@
       }
     ]
   },
-  // "work": [
-  //   {
-  //     "name": "Institute for Advanced Study, Princeton University",
-  //     "position": "Professor of Theoretical Physics",
-  //     "url": "https://example.com",
-  //     "startDate": "1933-01-01",
-  //     "endDate": "1955-01-01",
-  //     "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-  //     "highlights": [
-  //       "Relativity"
-  //     ]
-  //   }
-  // ],
   "volunteer": [],
   "education": [
     {
       "institution": "Peking University, Beijing, China",
       "url": "https://www.pku.edu.cn/",
       "area": "Data Science",
-      "Advisor": "href='www.songxichen.com' Prof. Songxi Chen" 
+      "Advisor": "Prof. Songxi Chen" 
       "studyType": "Master",
       "startDate": "2023.9",
       "endDate": "2026.7",
@@ -68,6 +55,19 @@
         "Machine Learning", 
         "Statistical Learning"
       ]
+    }
+  ],
+    "work experience": [
+    {
+      "name": "Hellobike",
+      "position": "Algorithm Intern",
+      // "url": "https://example.com",
+      "startDate": "2022.1",
+      "endDate": "2022.4",
+      "summary": "Red Packet Bike",
+      // "highlights": [
+      //   "Relativity"
+      // ]
     }
   ],
   // "awards": [
