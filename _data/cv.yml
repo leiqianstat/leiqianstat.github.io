@@ -13,7 +13,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master
+    - title: Postgraduate in Data Science
       institution: Peking University, Beijing, China
       college: Center for Data Science, Academy for Advanced Interdisciplinary Studies
       major: Data Science
@@ -26,7 +26,7 @@
       #     contents:
       #       - Sub-description 1.
       #       - Sub-description 2.
-    - title: Bachelor
+    - title: B.S. in Statistics
       institution: East China Normal University, Beijing, China
       college: School of Statistics
       year: 2018.9-2023.7
@@ -60,7 +60,7 @@
     - year: 2020
       items: 
         - Second Prize of The Chinese Mathematics Competitions 
-   - year: 2020
+    - year: 2020
       items:
         - Baidu Star Programming Competition Finals
     - year: 2019/2021
