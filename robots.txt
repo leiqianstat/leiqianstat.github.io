@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://leiqian99.github.io/sitemap.xml
+Sitemap: https://leiqianstat.github.io/sitemap.xml
