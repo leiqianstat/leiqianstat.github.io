@@ -51,18 +51,21 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2019
-      items:
-        - Merit Scholarship of East China Normal University
-    - year: 2020
-      items: 
-        - Second Prize in the National University Mathematics Competition 
-    - year: 2021
-      items: 
-        - Second Prize in the National Student Mathematical Modelling Competition
     - year: 2022
       items:
         - Merit Communist Youth League Cadres of East China Normal University
+    - year: 2021
+      items: 
+        - Second Prize of The China Undergraduate Mathematical Contest in Modeling
+    - year: 2020
+      items: 
+        - Second Prize of The Chinese Mathematics Competitions 
+   - year: 2020
+      items:
+        - Baidu Star Programming Competition Finals
+    - year: 2019/2021
+      items:
+        - Merit Scholarship of East China Normal University
 
 - title: Academic Interests
   type: nested_list
