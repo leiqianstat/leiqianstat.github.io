@@ -6,9 +6,10 @@ subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: person.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p>leiqian [at] stu [dot] pku [dot] edu [dot] cn </p>
     <p>Center for Data Science</p>
     <p>Peking University</p>
 
