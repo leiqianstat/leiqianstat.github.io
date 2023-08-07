@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-JCSDS 2023 is held in Beijing!
+JCSDS 2023 has been held in Beijing!
