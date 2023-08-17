@@ -82,4 +82,5 @@
 - title: Other Interests
   type: list
   contents:
-    - Hobbies &#58 Badminton
+    - Hobbies&#58 Badminton  
+    # &#58 冒号的转义
