@@ -23,6 +23,6 @@ I am a Postgraduate at [Academy for Advanced Interdisciplinary Studies](http://w
 
 Prior to joining PKU, I was an undergraduate from [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received B.S. in Statistics. I was very fortunate to be advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU. I aslo worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU.
 
-My research interests include diffusion model, machine learning, statistical learning and deeping learning.
+My research interests include diffusion model, machine learning, statistical learning and deep learning.
  
 Feel free to contact me if you would like to have a chat!
