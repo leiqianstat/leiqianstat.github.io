@@ -84,3 +84,16 @@ body {
     max-height: 150px;
     overflow: hidden;
 }
+
+/* 去除鼠标悬停时的阴影效果 */
+.scrollable-box > *:hover {
+    box-shadow: none !important;  /* 如果使用了box-shadow */
+    text-shadow: none !important; /* 如果使用了text-shadow */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .post-title {
+        font-size: 36px;
+    }
+}
