@@ -48,10 +48,10 @@ layout: default
           {%- endif %}
 
          <!-- Latest posts -->
-<!--           {% if page.latest_posts -%} -->
-<!--             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2> -->
-<!--             {%- include latest_posts.html %} -->
-<!--           {%- endif %}  -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
+            {%- include latest_posts.html %}
+          {%- endif %} 
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
@@ -67,7 +67,7 @@ layout: default
 
 
           <!-- Social -->
-<!--           {%- if page.social %}
+          {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
                 {% include social.html %}
@@ -78,7 +78,7 @@ layout: default
               </div>
 
             </div>
-          {%- endif %} -->
+          {%- endif %}
         </article>
 
 </div>
