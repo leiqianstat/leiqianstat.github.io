@@ -14,9 +14,9 @@ profile:
     <p>Peking University</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a postgraduate student at [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/).
