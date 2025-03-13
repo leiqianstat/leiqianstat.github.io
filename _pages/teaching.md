@@ -10,7 +10,7 @@ nav_order: 6
 **Mathematical Statistics (Spring 2025)**
 Undergraduate course, Peking University.
 
-**Probality Theory (Fall 2024)**
+**Probability Theory (Fall 2024)**
 Undergraduate course, Peking University..
 
 
