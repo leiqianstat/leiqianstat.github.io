@@ -2,15 +2,15 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description: I am a teaching assistant (TA) for the following course:
 nav: true
 nav_order: 6
 ---
 
-# Mathematical Statistics
-TA, undergraduate course, Peking University, 2025 Spring.
+**Mathematical Statistics (Spring 2025)**
+Undergraduate course, Peking University.
 
-# Probality Theory
-TA, undergraduate course, Peking University, 2024 Fall.
+**Probality Theory (Fall 2024)**
+Undergraduate course, Peking University..
 
 
