@@ -3,7 +3,7 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{
+@article{qian2026LM,
 abbr={arXiv},
 bibtex_show={true},
 title={Likelihood Matching for Diffusion Models}, 
@@ -18,7 +18,7 @@ pdf = {25_LM.pdf},
 abstract = {We propose a Likelihood Matching approach for training diffusion models by first establishing an equivalence between the likelihood of the target data distribution and a likelihood along the sample path of the reverse diffusion. To efficiently compute the reverse sample likelihood, a quasi-likelihood is considered to approximate each reverse transition density by a Gaussian distribution with matched conditional mean and covariance, respectively. The score and Hessian functions for the diffusion generation are estimated by maximizing the quasi-likelihood, ensuring a consistent matching of both the first two transitional moments between every two time points. A stochastic sampler is introduced to facilitate computation that leverages both the estimated score and Hessian information. We establish consistency of the quasi-maximum likelihood estimation, and provide non-asymptotic convergence guarantees for the proposed sampler, quantifying the rates of the approximation errors due to the score and Hessian estimation, dimensionality, and the number of diffusion steps. Empirical and simulation evaluations demonstrate the effectiveness of the proposed Likelihood Matching and validate the theoretical results.}
 }
 
-@article{
+@article{liu2026PFDBDCM,
 abbr={arXiv},
 bibtex_show={true},
 title={Partially Functional Dynamic Backdoor Diffusion-based Causal Model}, 
@@ -33,7 +33,7 @@ pdf = {25_PFD_BDCM.pdf},
 abstract = {Causal inference in settings involving complex spatio-temporal dependencies, such as environmental epidemiology, is challenging due to the presence of unmeasured confounding. However, a significant gap persists in existing methods: current diffusion-based causal models rely on restrictive assumptions of causal sufficiency or static confounding. To address this limitation, we introduce the Partially Functional Dynamic Backdoor Diffusion-based Causal Model (PFD-BDCM), a generative framework designed to bridge this gap. Our approach uniquely incorporates valid backdoor adjustments into the diffusion sampling mechanism to mitigate bias from unmeasured confounders. Specifically, it captures their intricate dynamics through region-specific structural equations and conditional autoregressive processes, and accommodates multi-resolution variables via functional data techniques. Furthermore, we provide theoretical guarantees by establishing error bounds for counterfactual estimates. Extensive experiments on synthetic data and a real-world air pollution case study confirm that PFD-BDCM outperforms current state-of-the-art methods.}
 }
 
-@article{doi:10.1080/16843703.2023.2244213,
+@article{sun2023EWMA,
 abbr={QTQM},
 bibtex_show={true},
 author = {Mingze Sun and Lei Qian and Amitava Mukherjee and Dongdong Xiang},
