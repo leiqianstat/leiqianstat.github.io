@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Lei Qian (钱磊) # the website title (if blank, full name will be used instead)
+title: Lei Qian # the website title (if blank, full name will be used instead)
 first_name: Lei
-middle_name: 
-last_name: Qian
+middle_name:
+last_name: Qian (钱磊)
 email: leiqian@stu.pku.edu.cn
 description: # > # the ">" symbol means to ignore newlines until "footer_text:"
   # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
