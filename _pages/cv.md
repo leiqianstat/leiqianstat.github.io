@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: false
 nav_order: 4
-cv_pdf: LeiQian_CurriculumVita.pdf
+cv_pdf: CV.pdf
 ---
