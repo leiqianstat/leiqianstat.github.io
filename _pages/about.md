@@ -30,3 +30,4 @@ Feel free to contact me if you would like to have a chat!
 Diffusion models, Generative AI, High-dimensional Statistics, and Machine learning.
 </span>
 
+> 知我者，谓我心忧；不知我者，谓我何求。---《黍离》
