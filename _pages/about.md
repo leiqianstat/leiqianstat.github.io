@@ -30,7 +30,7 @@ Feel free to contact me if you would like to have a chat!
 Diffusion models, Generative AI, High-dimensional Statistics, and Machine learning.
 </span>
 
-<blockquote style="padding: 5px 15px; color: #5c6269; font-style: italic; background: none;">
+<blockquote style="border-left: 4px solid; padding: 5px 15px; color: #5c6269; font-style: italic; background: none;">
   <p style="margin-bottom: 0;"> 知我者，谓我心忧；不知我者，谓我何求。 --- 《黍离》</p>
 </blockquote>
 
