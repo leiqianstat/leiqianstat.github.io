@@ -208,7 +208,7 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
-    font-weight: bold;
+    font-weight: bold !important;
   }
 
   .navbar-nav .nav-item .nav-link {
