@@ -19,7 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third-year postgraduate student at [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). <u><strong> I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.</strong></u>
+I am a third-year postgraduate student at [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.
+
+<!-- <u><strong> I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.</strong></u> -->
 
 Prior to joining PKU, I was an undergraduate from [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received a B.S. in Statistics. I was very fortunate to be advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU. I also worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU.
 
