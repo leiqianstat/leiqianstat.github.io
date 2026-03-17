@@ -4,8 +4,6 @@ title: About
 permalink: /
 subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-news: true
-
 profile:
   align: right
   image: person.jpg
@@ -15,7 +13,7 @@ profile:
     <p>Peking University</p>
     <p>Email: leiqian@stu.pku.edu.cn</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
