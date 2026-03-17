@@ -4,6 +4,8 @@ title: About
 permalink: /
 subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
+news: true
+
 profile:
   align: right
   image: person.jpg
