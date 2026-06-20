@@ -59,3 +59,12 @@
   font-weight: bold;
   color: var(--global-theme-color);
 }
+
+/* Render the Chinese name on the about page in a running-script (xingkai) calligraphy
+   font, falling back to kaishu and then a generic cursive face when those calligraphy
+   fonts are not installed on the visitor's system. */
+.post-title .name-cn {
+  font-family: "STXingkai", "华文行楷", "Xingkai SC", "HanWangXingKai",
+    "KaiTi", "STKaiti", "Kaiti SC", "楷体", cursive, serif;
+  font-weight: 400;
+}
