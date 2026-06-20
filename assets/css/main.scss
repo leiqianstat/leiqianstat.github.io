@@ -60,11 +60,22 @@
   color: var(--global-theme-color);
 }
 
-/* Render the Chinese name on the about page in a running-script (xingkai) calligraphy
-   font, falling back to kaishu and then a generic cursive face when those calligraphy
-   fonts are not installed on the visitor's system. */
+/* Self-hosted brush calligraphy webfont (Ma Shan Zheng, SIL OFL), subset to just the
+   characters of the Chinese name so every visitor sees the calligraphic style regardless
+   of the fonts installed on their device. File is ~2 KB. */
+@font-face {
+  font-family: "Name Calligraphy";
+  src: url("{{ '/assets/fonts/mashanzheng-name.woff2' | relative_url }}") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+94B1, U+78CA; /* 钱 磊 */
+}
+
+/* Render the Chinese name on the about page in the calligraphy webfont, with system
+   xingkai/kaishu fonts as a fallback before a generic cursive face. */
 .post-title .name-cn {
-  font-family: "STXingkai", "华文行楷", "Xingkai SC", "HanWangXingKai",
-    "KaiTi", "STKaiti", "Kaiti SC", "楷体", cursive, serif;
+  font-family: "Name Calligraphy", "STXingkai", "华文行楷", "Xingkai SC",
+    "HanWangXingKai", "KaiTi", "STKaiti", "Kaiti SC", "楷体", cursive, serif;
   font-weight: 400;
 }
