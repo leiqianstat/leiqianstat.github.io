@@ -7,6 +7,7 @@ redirect_pdf: /assets/pdf/CV.pdf
 ---
 
 {% assign cv_url = page.redirect_pdf | relative_url %}
+
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}">
   <head>
