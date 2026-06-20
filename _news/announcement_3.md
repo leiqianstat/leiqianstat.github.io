@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-3-12
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-🎉 I have accepted the offer to join the Ph.D. program in Applied Mathematics and Computational Science (AMCS) at the University of Pennsylvania for Fall 2026!
+A simple inline announcement with Markdown emoji! :sparkles: :smile:

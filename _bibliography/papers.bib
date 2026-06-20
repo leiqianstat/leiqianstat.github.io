@@ -3,63 +3,113 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{qian2026LM,
-abbr={ICML},
-bibtex_show={true},
-title={Likelihood Matching for Diffusion Models}, 
-author={Lei Qian and Wu Su and Yanqi Huang and Song Xi Chen},
-booktitle={International Conference on Machine Learning},
-year={2026},
-eprint={2508.03636},
-archivePrefix={arXiv},
-primaryClass={stat.ML},
-arxiv={2508.03636},
-url={https://arxiv.org/abs/2508.03636}, 
-selected={true},
-pdf={25_LM.pdf},
-abstract = {We propose a Likelihood Matching approach for training diffusion models by first establishing an equivalence between the likelihood of the target data distribution and a likelihood along the sample path of the reverse diffusion. To efficiently compute the reverse sample likelihood, a quasi-likelihood is considered to approximate each reverse transition density by a Gaussian distribution with matched conditional mean and covariance, respectively. The score and Hessian functions for the diffusion generation are estimated by maximizing the quasi-likelihood, ensuring a consistent matching of both the first two transitional moments between every two time points. A stochastic sampler is introduced to facilitate computation that leverages both the estimated score and Hessian information. We establish consistency of the quasi-maximum likelihood estimation, and provide non-asymptotic convergence guarantees for the proposed sampler, quantifying the rates of the approximation errors due to the score and Hessian estimation, dimensionality, and the number of diffusion steps. Empirical and simulation evaluations demonstrate the effectiveness of the proposed Likelihood Matching and validate the theoretical results.}
+@book{einstein1920relativity,
+  title     = {Relativity: the Special and General Theory},
+  author    = {Einstein, Albert},
+  year      = {1920},
+  publisher = {Methuen & Co Ltd},
+  html      = {relativity.html}
 }
 
-@article{liu2026PFDBDCM,
-abbr={arXiv},
-bibtex_show={true},
-title={Partially Functional Dynamic Backdoor Diffusion-based Causal Model}, 
-author={Xinwen Liu and Lei Qian and Song Xi Chen and Niansheng Tang},
-year={2025},
-eprint={2509.00472},
-archivePrefix={arXiv},
-primaryClass={stat.ML},
-arxiv={2509.00472},
-url={https://arxiv.org/abs/2509.00472}, 
-selected={true},
-pdf = {25_PFD_BDCM.pdf},
-abstract = {Causal inference in settings involving complex spatio-temporal dependencies, such as environmental epidemiology, is challenging due to the presence of unmeasured confounding. However, a significant gap persists in existing methods: current diffusion-based causal models rely on restrictive assumptions of causal sufficiency or static confounding. To address this limitation, we introduce the Partially Functional Dynamic Backdoor Diffusion-based Causal Model (PFD-BDCM), a generative framework designed to bridge this gap. Our approach uniquely incorporates valid backdoor adjustments into the diffusion sampling mechanism to mitigate bias from unmeasured confounders. Specifically, it captures their intricate dynamics through region-specific structural equations and conditional autoregressive processes, and accommodates multi-resolution variables via functional data techniques. Furthermore, we provide theoretical guarantees by establishing error bounds for counterfactual estimates. Extensive experiments on synthetic data and a real-world air pollution case study confirm that PFD-BDCM outperforms current state-of-the-art methods.}
+@book{einstein1956investigations,
+  bibtex_show = {true},
+  title       = {Investigations on the Theory of the Brownian Movement},
+  author      = {Einstein, Albert},
+  year        = {1956},
+  publisher   = {Courier Corporation},
+  preview     = {brownian-motion.gif}
 }
 
-@article{sun2023EWMA,
-abbr={QTQM},
-bibtex_show={true},
-author = {Mingze Sun and Lei Qian and Amitava Mukherjee and Dongdong Xiang},
-title = {An EWMA chart for high dimensional process with multi-class out-of-control information via random forest learning},
-journal = {Quality Technology \& Quantitative Management},
-volume = {0},
-number = {0},
-pages = {1-27},
-year  = {2023},
-publisher = {Taylor & Francis},
-doi = {10.1080/16843703.2023.2244213},
-selected={true},
-html={https://www.tandfonline.com/doi/full/10.1080/16843703.2023.2244213},
-URL = { https://doi.org/10.1080/16843703.2023.2244213},
-eprint = {https://doi.org/10.1080/16843703.2023.2244213},
-pdf = {23_QTQM.pdf},
-abstract = {Modern manufacturing and quality monitoring involve multi-class out-of-control (OOC) information from the training sample. It is essential to use such information during online monitoring of data streams from complex processes. In this paper, a monitoring framework is designed by combining the random forest technique with the exponentially weighted moving average method for monitoring complex processes with multi-class OOC information. To be specific, a process surveillance technique in the form of a control chart is proposed based on the probability that the online data is classified as an in-control (IC) sample, and the control chart triggers an alarm when the probability is lower than the control limit. Our numerical findings based on the Monte–Carlo simulation show that the proposed control chart performs more effectively than its competitors under various distributions and data types, especially for high-dimensional cases when multi-class OOC information is known in advance. Moreover, the proposed method is illustrated with an application using the data related to the hard disk manufacturing processes. }
+@article{einstein1950meaning,
+  abbr        = {AJP},
+  bibtex_show = {true},
+  title       = {The meaning of relativity},
+  author      = {Einstein, Albert and Taub, AH},
+  journal     = {American Journal of Physics},
+  volume      = {18},
+  number      = {6},
+  pages       = {403--404},
+  year        = {1950},
+  publisher   = {American Association of Physics Teachers}
 }
 
+@article{PhysRev.47.777,
+  abbr              = {PhysRev},
+  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal           = {Phys. Rev.},
+  location          = {New Jersey},
+  volume            = {47},
+  issue             = {10},
+  pages             = {777--780},
+  numpages          = {0},
+  year              = {1935},
+  month             = {May},
+  publisher         = aps,
+  doi               = {10.1103/PhysRev.47.777},
+  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf               = {example_pdf.pdf},
+  altmetric         = {248277},
+  dimensions        = {true},
+  google_scholar_id = {qyhmnyLat1gC},
+  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation        = {* Example use of superscripts<br>† Albert Einstein},
+  selected          = {true},
+  inspirehep_id     = {3255}
+}
 
+@article{einstein1905molekularkinetischen,
+  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author    = {Einstein, A.},
+  journal   = {Annalen der physik},
+  volume    = {322},
+  number    = {8},
+  pages     = {549--560},
+  year      = {1905},
+  publisher = {Wiley Online Library}
+}
 
+@article{einstein1905movement,
+  abbr    = {Ann. Phys.},
+  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author  = {Einstein, A.},
+  journal = {Ann. Phys.},
+  volume  = {17},
+  pages   = {549--560},
+  year    = {1905}
+}
 
+@article{einstein1905electrodynamics,
+  title  = {On the electrodynamics of moving bodies},
+  author = {Einstein, A.},
+  year   = {1905}
+}
 
+@article{einstein1905photoelectriceffect,
+  bibtex_show = {true},
+  abbr        = {Ann. Phys.},
+  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
+  author      = {Albert Einstein},
+  abstract    = {This is the abstract text.},
+  journal     = {Ann. Phys.},
+  volume      = {322},
+  number      = {6},
+  pages       = {132--148},
+  year        = {1905},
+  doi         = {10.1002/andp.19053220607},
+  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name  = {Nobel Prize}
+}
 
-
-
+@book{przibram1967letters,
+  bibtex_show = {true},
+  title       = {Letters on wave mechanics},
+  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year        = {1967},
+  publisher   = {Vision},
+  preview     = {wave-mechanics.gif},
+  abbr        = {Vision}
+}

@@ -1,43 +1,34 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: person.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Center for Data Science</p>
-    <p>Peking University</p>
-    <p>Email: leiqian@stu.pku.edu.cn</p>
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year postgraduate student at [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-<!-- <u><strong> I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.</strong></u> -->
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Prior to joining PKU, I was an undergraduate from [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received a B.S. in Statistics. I was very fortunate to be advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU. I also worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU.
-
-Feel free to contact me if you would like to have a chat!
-
-**Research interests:**  
-<span>
-Diffusion models, Generative AI, High-dimensional Statistics, and Machine learning.
-</span>
-
-<blockquote style="border-left-width: 4px; padding: 5px 15px; color: #5c6269; font-style: italic; background: none;">
-  <p style="margin-bottom: 0;"> 知我者，谓我心忧；不知我者，谓我何求。 — 《黍离》</p>
-</blockquote>
-
-<!--
-<blockquote style="border-left: 4px solid #8a939b; padding: 5px 15px; color: #5c6269; font-style: italic; background: none;">
-  <p style="margin-bottom: 0;"> 知我者，谓我心忧；不知我者，谓我何求。 — 《黍离》</p>
-</blockquote>
--->
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
