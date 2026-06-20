@@ -4,21 +4,12 @@ cv:
   email: leiqian@stu.pku.edu.cn
   location: Beijing, China
   image: ""
-  summary: ""
 
   social_networks:
     - network: GitHub
       username: leiqianstat
 
   sections:
-    General Information:
-      - label: Full Name
-        value: Lei Qian
-      - label: Email
-        value: leiqian@stu.pku.edu.cn
-      - label: Languages
-        value: Mandarin
-
     Education:
       - institution: Peking University, Beijing, China
         location: Beijing, China
@@ -57,6 +48,10 @@ cv:
         date: 2020-10
       - title: Merit Scholarship of East China Normal University
         summary: 2019 / 2020 / 2021
+
+    Languages:
+      - name: Mandarin
+        summary: Native
 
     Interests:
       - name: Research
