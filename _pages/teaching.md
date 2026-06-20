@@ -2,14 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: "I am a teaching assistant (TA) for the following course:"
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
++ **Mathematical Statistics (Spring 2025)**
+  Undergraduate course, Peking University.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
++ **Probability Theory (Fall 2024)**
+  Undergraduate course, Peking University.
