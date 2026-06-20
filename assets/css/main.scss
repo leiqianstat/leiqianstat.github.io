@@ -60,11 +60,38 @@
   color: var(--global-theme-color);
 }
 
-/* Self-hosted brush calligraphy webfont (Ma Shan Zheng, SIL OFL), subset to just the
-   characters of the Chinese name so every visitor sees the calligraphic style regardless
-   of the fonts installed on their device. File is ~2 KB. */
+/* ===========================================================================
+   关于页中文名「钱磊」的书法字体
+   ---------------------------------------------------------------------------
+   两款字体都已自托管 + 子集化内嵌（只含「钱磊」两字，各约 1.5 KB），
+   都是 SIL OFL 开源许可、可合法内嵌，国内访问也不依赖外部 CDN。
+
+   已内嵌的两款（@font-face 名称 → 字体）：
+     1. "Calligraphy ZhiMangXing"  → 志莽行书（行书，连笔灵动）   ★当前启用
+     2. "Calligraphy MaShanZheng"  → 马善政毛笔楷体（毛笔楷/行楷，端正厚重）
+
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │ ★ 如何切换字体：                                                      │
+   │   只改下面 `.post-title .name-cn` 里 font-family 的【第一个】名字：    │
+   │     • 想用志莽行书： "Calligraphy ZhiMangXing"   （默认）              │
+   │     • 想用马善政：   "Calligraphy MaShanZheng"                         │
+   │   改完保存 → 提交 → 合并到 master，会自动重新部署生效。                │
+   └─────────────────────────────────────────────────────────────────────┘
+   =========================================================================== */
+
+/* 字体 1：志莽行书（行书） */
 @font-face {
-  font-family: "Name Calligraphy";
+  font-family: "Calligraphy ZhiMangXing";
+  src: url("{{ '/assets/fonts/zhimangxing-name.woff2' | relative_url }}") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+94B1, U+78CA; /* 钱 磊 */
+}
+
+/* 字体 2：马善政毛笔楷体（毛笔楷/行楷） */
+@font-face {
+  font-family: "Calligraphy MaShanZheng";
   src: url("{{ '/assets/fonts/mashanzheng-name.woff2' | relative_url }}") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -72,10 +99,9 @@
   unicode-range: U+94B1, U+78CA; /* 钱 磊 */
 }
 
-/* Render the Chinese name on the about page in the calligraphy webfont, with system
-   xingkai/kaishu fonts as a fallback before a generic cursive face. */
 .post-title .name-cn {
-  font-family: "Name Calligraphy", "STXingkai", "华文行楷", "Xingkai SC",
-    "HanWangXingKai", "KaiTi", "STKaiti", "Kaiti SC", "楷体", cursive, serif;
+  /* ▼▼▼ 切换字体只改这一行的第一个名字（见上方说明框）▼▼▼ */
+  font-family: "Calligraphy ZhiMangXing", "Calligraphy MaShanZheng", "STXingkai",
+    "华文行楷", "Xingkai SC", "KaiTi", "STKaiti", "楷体", cursive, serif;
   font-weight: 400;
 }
