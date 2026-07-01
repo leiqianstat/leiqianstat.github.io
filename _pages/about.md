@@ -6,7 +6,7 @@ subtitle: Chasing Statistics. #<a href='#'>Affiliations</a>. Address. Contacts. 
 
 profile:
   align: right
-  image: PIC01309.JPG
+  image: person.jpg # PIC01309.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Center for Data Science</p>
