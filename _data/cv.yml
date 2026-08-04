@@ -1,6 +1,6 @@
 cv:
   name: Lei Qian
-  label: Master Candidate
+  label: Ph.D. Student
   email: lqian@sas.upenn.edu
   location: Philadelphia, PA, USA
   image: ""
@@ -11,6 +11,16 @@ cv:
 
   sections:
     Education:
+      - institution: University of Pennsylvania, Philadelphia, PA, USA
+        location: Philadelphia, PA, USA
+        area: Applied Mathematics and Computational Science
+        studyType: Ph.D.
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - "AMCS Graduate Group"
+          - "Advisor: Prof. Yong Chen"
+
       - institution: Peking University, Beijing, China
         location: Beijing, China
         area: Data Science

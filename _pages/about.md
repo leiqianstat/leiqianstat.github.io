@@ -9,8 +9,8 @@ profile:
   image: person.jpg # PIC01309.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AMCS, University of Pennsylvania</p>
-    <p>Email: lqian@sas.upenn.edu</p>
+    <p><a href="https://amcs.upenn.edu/">AMCS</a>, <a href="https://www.upenn.edu/">University of Pennsylvania</a></p>
+    <p>Email: <a href="mailto:lqian@sas.upenn.edu">lqian@sas.upenn.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
