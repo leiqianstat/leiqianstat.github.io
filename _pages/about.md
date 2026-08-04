@@ -9,9 +9,8 @@ profile:
   image: person.jpg # PIC01309.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Center for Data Science</p>
-    <p>Peking University</p>
-    <p>Email: leiqian@stu.pku.edu.cn</p>
+    <p>AMCS, University of Pennsylvania</p>
+    <p>Email: lqian@sas.upenn.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -27,11 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year postgraduate student at [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.
+I am a Ph.D. student in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) program at the [University of Pennsylvania](https://www.upenn.edu/), advised by [Prof. Yong Chen](https://dbei.med.upenn.edu/staff/yong_chen/).
 
-<!-- <u><strong> I will be joining in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) Ph.D. program at the [University of Pennsylvania](https://www.upenn.edu/) in Fall 2026.</strong></u> -->
-
-Prior to joining PKU, I was an undergraduate from [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU) where I received a B.S. in Statistics. I was very fortunate to be advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp) from School of Statistics, ECNU. I also worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp) from School of Statistics, ECNU.
+Previously, I received an M.S. in Data Science from the [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), where I was supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). Prior to that, I received a B.S. in Statistics from the [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU), advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp). I also worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp).
 
 Feel free to contact me if you would like to have a chat!
 
