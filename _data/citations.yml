@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-08-12'
 papers:
   dx-lcZ4AAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Likelihood Matching for Diffusion Models
     year: '2025'
   dx-lcZ4AAAAJ:IjCSPb-OGe4C:
-    citations: 6
+    citations: 7
     title: Unleashing high-quality image generation in diffusion sampling using second-order levenberg-marquardt-langevin
     year: '2025'
   dx-lcZ4AAAAJ:u-x6o8ySG0sC:
