@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) program at the [University of Pennsylvania](https://www.upenn.edu/), advised by [Prof. Yong Chen](https://dbei.med.upenn.edu/staff/yong_chen/).
+I am a Ph.D. student in the [Applied Mathematics and Computational Science (AMCS)](https://amcs.upenn.edu/) program at the [University of Pennsylvania](https://www.upenn.edu/), advised by [Prof. Yong Chen](https://dbei.med.upenn.edu/staff/yong_chen/).
 
 Previously, I received an M.S. in Data Science from the [Center for Data Science](https://www.ds.pku.edu.cn/), [Academy for Advanced Interdisciplinary Studies](http://www.aais.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/) (PKU), where I was supervised by [Prof. Song Xi Chen](https://www.songxichen.com/) and [Prof. Yumou Qiu](https://yumou.org/). Prior to that, I received a B.S. in Statistics from the [School of Statistics](http://stat.ecnu.edu.cn/), [East China Normal University](https://www.ecnu.edu.cn/) (ECNU), advised by [Prof. Dongdong Xiang](https://faculty.ecnu.edu.cn/_s35/xdd/main.psp). I also worked closely with [Prof. Jingsi Ming](https://faculty.ecnu.edu.cn/_s35/mjs/main.psp).
 
