@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hello
-date: 2026-09-09 12:00:00-0400
-description: Opening this blog for research notes and writing
-tags: notes
-categories: blog
+title: Some Thoughts on Recent Developments in AI
+date: 2026-09-09 23:00:00-0400
+description: Thoughts on the Future
+tags: AI, LLMs, Math, Stat
+categories: Miscellanea
 related_posts: false
 ---
 
