@@ -1,3 +1,4 @@
+const crypto = require("node:crypto");
 const fs = require("node:fs");
 const path = require("node:path");
 
@@ -61,9 +62,53 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
+// Overrides recorded by `al-folio upgrade overrides audit` in .al-folio-overrides.yml are allowed,
+// as long as the committed file still matches the acknowledged local_sha256.
+const trackedOverrides = new Map();
+if (exists(".al-folio-overrides.yml")) {
+  let currentPath = null;
+  for (const line of read(".al-folio-overrides.yml").split(/\r?\n/)) {
+    const pathMatch = line.match(/^ {2}(\S[^:]*):\s*$/);
+    if (pathMatch) {
+      currentPath = pathMatch[1].replace(/^["']|["']$/g, "");
+      trackedOverrides.set(currentPath, null);
+      continue;
+    }
+    const shaMatch = line.match(/^ {4}local_sha256:\s*["']?([0-9a-f]{64})["']?\s*$/);
+    if (shaMatch && currentPath) {
+      trackedOverrides.set(currentPath, shaMatch[1]);
+    }
+  }
+}
+
+const listFiles = (relPath) => {
+  const absPath = path.join(root, relPath);
+  if (!fs.statSync(absPath).isDirectory()) {
+    return [relPath];
+  }
+  return fs.readdirSync(absPath).flatMap((entry) => listFiles(path.posix.join(relPath, entry)));
+};
+
+const sha256 = (relPath) =>
+  crypto
+    .createHash("sha256")
+    .update(fs.readFileSync(path.join(root, relPath)))
+    .digest("hex");
+
 for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
-  if (exists(forbiddenPath)) {
-    failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+  if (!exists(forbiddenPath)) {
+    continue;
+  }
+  for (const filePath of listFiles(forbiddenPath)) {
+    if (!trackedOverrides.has(filePath)) {
+      failures.push(
+        `Starter must not own core component path \`${filePath}\`; move ownership to the corresponding gem or track it with \`al-folio upgrade overrides audit\`.`
+      );
+    } else if (trackedOverrides.get(filePath) !== sha256(filePath)) {
+      failures.push(
+        `Local override \`${filePath}\` changed since it was acknowledged; review it and re-run \`al-folio upgrade overrides accept ${filePath}\`.`
+      );
+    }
   }
 }
 
